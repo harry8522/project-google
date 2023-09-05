@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/google-logo.png" type="image/x-icon">
+
+
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .google-image {
+            display: block;
+            margin: auto;
+            margin-top: 80px;
+        }
+
+        .gmail {
+            text-decoration: none;
+            color: rgb(207, 207, 207);
+            position: absolute;
+            right: 270px;
+            top: 20px;
+        }
+
+        .Image {
+            text-decoration: none;
+            color: rgb(207, 207, 207);
+            position: absolute;
+            right: 200px;
+            top: 20px;
+        }
+
+        .icon-image {
+            position: absolute;
+            right: 150px;
+            top: 18px;
+            width: 25px;
+            height: auto;
+            padding: 5px;
+
+        }
+
+        .button {
+
+            position: absolute;
+            right: 30px;
+            top: 15px;
+            padding: 9px 23px;
+            font-size: 14px;
+            letter-spacing: .25px;
+            background-color: #1a73e8;
+            color: white;
+            border-radius: 3px;
+            border: none;
+            font-weight: 400;
+            text-decoration: none;
+
+        }
+
+        .icon-image:hover {
+            background-color: grey;
+            border-radius: 100px;
+            padding: 5px;
+            cursor: pointer;
+        }
+
+        .gmail:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .Image:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #165ab4;
+            cursor: pointer;
+        }
+
+        .search {
+            margin: auto;
+            display: block;
+            margin-top: 50px;
+            width: 43%;
+            height: auto;
+            padding-top: 17px;
+            padding-bottom: 10px;
+            border-radius: 50px;
+            border: 1px solid grey;
+            background-color: black;
+            outline: none;
+            color: white;
+            font-size: 20px;
+            padding-left: 10px;
+            padding: 9px 85px 9px 40px;
+            appearance: none;
+            -webkit-appearance: none;
+        }
+
+        .google-assistant {
+            margin: auto;
+            display: block;
+            margin-top: -39px;
+            margin-left: 65%;
+            width: 29px;
+            height: auto;
+        }
+
+        .google-home {
+            margin: auto;
+            display: block;
+            margin-top: -30px;
+            margin-left: 68%;
+            width: 29px;
+            height: auto;
+        }
+
+        .google-search {
+            margin: auto;
+            display: block;
+            position: absolute;
+            right: 800px;
+            top: 300px;
+            padding: 9px 23px;
+            font-size: 14px;
+            letter-spacing: .25px;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            font-weight: 400;
+            text-decoration: none;
+            background-color: rgb(57, 57, 57);
+            padding: 10px 30px;
+            font-weight: 470;
+            font-size: 16px;
+
+        }
+
+        .iamfeelinglucky {
+            margin: auto;
+            display: block;
+            position: absolute;
+            right: 600px;
+            top: 300px;
+            padding: 9px 23px;
+            font-size: 14px;
+            letter-spacing: .25px;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            font-weight: 400;
+            text-decoration: none;
+            background-color: rgb(57, 57, 57);
+            padding: 10px 30px;
+            font-weight: 470;
+            font-size: 16px;
+
+        }
+
+        .google-search:hover {
+            border: 1px solid grey;
+            padding: 9px 28px;
+            cursor: pointer;
+
+        }
+
+        .iamfeelinglucky:hover {
+            border: 1px solid grey;
+            padding: 9px 28px;
+            cursor: pointer;
+
+        }
+
+        .search :hover {
+            background-color: grey;
+
+        }
+
+        .google-assistant:hover {
+            cursor: pointer;
+        }
+
+        .google-home:hover {
+            cursor: pointer;
+        }
+        .hindi {
+            color: #4481cf;
+            text-align: center;
+            margin-top: 130px;
+        }
+
+        .hindi p {
+            display: inline;
+        }
+
+        #offer {
+            color: grey;
+        }
+
+        #offer:hover {
+            text-decoration: none;
+            cursor: default;
+        }
+
+        .hindi p:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .footer {
+            background-color: rgb(31, 31, 31);
+            margin-top: 150px;
+            color: grey;
+            padding: 20px 30px;
+
+        }
+
+        hr {
+            margin-top: -16px;
+            border-color: grey;
+        }
+
+        #about {
+            color: grey;
+            text-decoration: none;
+            background-color: rgb(31, 31, 31);
+            padding: 20px 30px;
+            margin: auto;
+            margin-top: -5px;
+            display: block;
+        }
+
+        .anchor {
+            color: grey;
+            text-decoration: none;
+            margin-left: 17px;
+        }
+
+        .anchor:hover {
+            text-decoration: underline;
+        }
+
+        .padding {
+            margin-top: -40px;
+            padding-left: 1290px;
+        }
+
+        .main {
+            margin-top: 220px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="gmail" href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Gmail</a>
+            <a class="Image" href="https://www.google.com/imghp?hl=en&ogbl" target="_blank">Images</a>
+            <img class="icon-image" src="https://img.icons8.com/ios-glyphs/30/cfcfcf/circled-menu--v2.png" alt="icon">
+            <a class="button"
+                href="https://accounts.google.com/v3/signin/confirmidentifier?continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&hl=en&ifkv=AXo7B7WO8KU_xoYi4vA0M1yX7_JW0rAvODOK13F4XJmzPvJgHEb5rqytuWjTFepsE_3JId7ZZltwdQ&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-368694050%3A1693568331279254&theme=glif">Sign
+                in</a>
+        </nav>
+    </header>
+
+    <img class="google-image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        alt="google">
+
+    <input class="search" type="search" name="" id="" placeholder="Type Something...">
+    <img class="google-assistant" src="https://img.icons8.com/color/48/google-assistant.png" alt="google-assistant">
+    <img class="google-home" src="https://img.icons8.com/fluency/48/000000/google-home.png" alt="google-home">
+    <input class="google-search" type="button" value="Google Search">
+    <input class="iamfeelinglucky" type="button" value="I'm feeling lucky">
+    <div class="hindi">
+        <p id="offer">Google offered in:</p>
+        <p>हिन्दी </p>
+        <p> বাংলা </p>
+        <p> తెలుగు </p>
+        <p> मराठी </p>
+        <p> தமிழ் </p>
+        <p>ગુજરાતી </p>
+        <p> ಕನ್ನಡ </p>
+        <p> മലയാളം </p>
+        <p> ਪੰਜਾਬੀ</p>
+    </div>
+    <footer>
+        <div class="main">
+            <p class="footer">India</p>
+            <hr>
+            <div>
+                <p id="about">About
+                    <a class="anchor"
+                        href="https://ads.google.com/intl/en_in/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+                    <a class="anchor" href="https://www.google.com/intl/en_in/business/">Business</a>
+                    <a class="anchor" href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>
+                <div class="padding">
+                    <a class="anchor" href="https://policies.google.com/privacy?hl=en-IN&fg=1">Privacy</a>
+                    <a class="anchor" href="https://policies.google.com/terms?hl=en-IN&fg=1">Terms</a>
+                    <a class="anchor" href="chrome://settings/">Settings</a>
+                </div>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
